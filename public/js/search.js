@@ -18,7 +18,7 @@ function buscar(cate = ' '){
                 document.getElementById('contenedor').innerHTML = " "
             }
 
-            //limita el numero de productos desplegado
+            //limita el numero de productos desplegado //Pendiente: añadir funcion a interfaz para definir el limite desde ahi
             if(index == 100){
                 break;
             }
