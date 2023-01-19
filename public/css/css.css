@@ -1,0 +1,29 @@
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar a {
+    float: left; 
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.navbar a.right {
+    float: right;
+}
+
+div#contenedor{
+    width: 90%;
+    margin: auto;
+}
+
+div#load{
+    margin: auto;
+    font-weight: 900;
+    font-size: large;
+    text-align: center;
+    margin-top: 100px;
+    width: 100%;
+}
