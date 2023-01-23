@@ -62,12 +62,19 @@ function actPr(){
     let decrip = document.getElementById('desc-pr').value;
     let precio = document.getElementById('precio-pr').value;
 
-    fetch('https://api.escuelajs.co/api/v1/products'+id, JSON.stringify({
-        title: titulo,
-        category: categoria,
-        description: decrip,
-        price: precio
-    }));
+    fetch('https://api.escuelajs.co/api/v1/products'+id, {
+        method: 'PUT',
+        headers: {  
+            'Accept': 'application/json',
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            "title": titulo,
+            "category": categoria,
+            "description": decrip,
+            "price":precio
+        })
+    });
 
     desplegarPR(titulo);
 }
