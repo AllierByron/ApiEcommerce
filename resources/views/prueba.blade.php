@@ -33,7 +33,8 @@
     
     <script src="{{ asset('js/search.js') }}"></script>
     <script src="{{ asset('js/prueba.js') }}"></script>
-    <script src="{{url('https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js')}}"></script>
     <script src="{{url('https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js')}}"></script>
+    <script src="{{url('https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js')}}"></script>
+    
 </body>
 </html>

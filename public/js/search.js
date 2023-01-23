@@ -1,5 +1,6 @@
 function buscar(cate = ' '){
     //location.reload();
+    document.getElementById('contenedor').innerHTML = " "
     document.getElementById('load').innerHTML = "Cargando..."
     fetch('https://api.escuelajs.co/api/v1/products'+cate).then((response) => response.json())
     .then((data) =>{
@@ -47,5 +48,6 @@ function buscar(cate = ' '){
         }
     });
 }
+
 
 //buscar(document.getElementById('categorias').value);

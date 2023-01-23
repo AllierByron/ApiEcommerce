@@ -21,7 +21,7 @@ function pintarProductos(respuesta){
 
 var cate = ' ';
 
-document.addEventListener('DOMContentLoaded',buscar())
+document.addEventListener('DOMContentLoaded',buscar());
 
 document.querySelector('#categorias').addEventListener('change',function(){
     cate = document.getElementById('categorias').value;
