@@ -19,7 +19,9 @@
         <input type="text" id="nombre-pr">
         <br>
         <label for="cat-pr">Categoria</label>
-        <input type="text" id="cat-pr">
+        <select type="text" id="cat-pr">
+            <option value=" ">-Categoria-</option>
+        </select>
         <br>
         <label for="desc-pr">Descripcion</label>
         <input type="text" id="desc-pr">
@@ -28,6 +30,8 @@
         <input type="text" id="precio-pr">
         <br>
         <button onclick="actPr();">Actualizar</button>
+        <button onclick="crearPr();">Añadir</button>
+        <button onclick="deletePr();">Borrar</button>
 
 
 
